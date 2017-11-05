@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/hscho/uangel/projects/test/myosgi/project/}myosgi-build...
+[info] Updating {file:/Users/hscho/std/osgi/myosgi/project/}myosgi-build...
 [debug] :: resolving dependencies :: default#myosgi-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6230,19 +6230,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 908ms :: artifacts dl 17ms
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT compile produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-compile.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT runtime produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-runtime.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT test produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-test.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT provided produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-provided.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT optional produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-optional.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT compile-internal produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-compile-internal.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT runtime-internal produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-runtime-internal.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT test-internal produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-test-internal.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT plugin produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-plugin.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT sources produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-sources.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT docs produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-docs.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT pom produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-pom.xml
-[debug] 	report for default#myosgi-build;0.1-SNAPSHOT scala-tool produced in /Users/hscho/uangel/projects/test/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-scala-tool.xml
-[debug] 	resolve done (908ms resolve - 17ms download)
+[debug] :: resolution report :: resolve 4343ms :: artifacts dl 89ms
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT compile produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-compile.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT runtime produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-runtime.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT test produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-test.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT provided produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-provided.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT optional produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-optional.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT compile-internal produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-compile-internal.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT runtime-internal produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-runtime-internal.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT test-internal produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-test-internal.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT plugin produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-plugin.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT sources produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-sources.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT docs produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-docs.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT pom produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-pom.xml
+[debug] 	report for default#myosgi-build;0.1-SNAPSHOT scala-tool produced in /Users/hscho/std/osgi/myosgi/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-myosgi-build-scala-tool.xml
+[debug] 	resolve done (4343ms resolve - 89ms download)
 [info] Done updating.

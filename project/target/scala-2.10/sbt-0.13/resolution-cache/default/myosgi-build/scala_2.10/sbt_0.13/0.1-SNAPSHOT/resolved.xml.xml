@@ -4,7 +4,7 @@
 		module="myosgi-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171026170854"
+		publication="20171105225700"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
