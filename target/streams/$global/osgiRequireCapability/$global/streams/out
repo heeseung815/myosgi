@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/var/folders/9t/fyrfyn1966v4typ8ns0swf340000gn/T/sbt_177d15ac/argfile[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
