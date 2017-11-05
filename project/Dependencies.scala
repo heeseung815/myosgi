@@ -27,4 +27,5 @@ object Dependencies {
 //  val configuration_factory_test = Seq(osgiCore, osgiCompendium, osgiServiceCM)
 
   val ddm = Seq(akka_http, akka_stream, akka_actor, akka_osgi, akka_remote, osgiCore, osgiCompendium)
+  val hello = Seq(osgiCore, osgiCompendium)
 }
