@@ -28,4 +28,7 @@ object Dependencies {
 
   val ddm = Seq(akka_http, akka_stream, akka_actor, akka_osgi, akka_remote, osgiCore, osgiCompendium)
   val hello_bundle = Seq(osgiCore, osgiCompendium)
+  val hellokiller_bundle = Seq(osgiCore, osgiCompendium)
+
+  val osgiAll = Seq(osgiCore, osgiCompendium)
 }

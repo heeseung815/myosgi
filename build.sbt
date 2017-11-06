@@ -20,6 +20,38 @@ lazy val hello_bundle = project.in(file("module/hello_bundle"))
       name := "hello_bundle",
       libraryDependencies ++= Dependencies.hello_bundle,
       osgiSettings,
-      OsgiKeys.exportPackage := Seq("ddm.activation"),
+      OsgiKeys.privatePackage := Seq("ddm.activation"),
       OsgiKeys.bundleActivator := Option("ddm.activation.HelloActivator")
   )
+
+lazy val hellokiller_bundle = project.in(file("module/hellokiller_bundle"))
+  .enablePlugins(SbtOsgi)
+  .settings(
+    name := "hellokiller_bundle",
+    libraryDependencies ++= Dependencies.hellokiller_bundle,
+    osgiSettings,
+    OsgiKeys.privatePackage := Seq("ddm.killer.activation"),
+    OsgiKeys.bundleActivator := Option("ddm.killer.activation.HelloKillerActivator")
+  )
+
+lazy val movie_bundle = project.in(file("module/movie_bundle"))
+  .enablePlugins(SbtOsgi)
+  .settings(
+    name := "Movie Interface",
+    libraryDependencies ++= Dependencies.osgiAll,
+    osgiSettings,
+    OsgiKeys.bundleSymbolicName := "MovieInterface",
+    OsgiKeys.exportPackage := Seq("osgitut.movies")
+  )
+
+lazy val moviefinder_bundle = project.in(file("module/moviefinder_bundle"))
+  .enablePlugins(SbtOsgi)
+  .settings(
+    name := "Basic Movie Finder",
+    libraryDependencies ++= Dependencies.osgiAll,
+    osgiSettings,
+    OsgiKeys.bundleSymbolicName := "BasicMovieFinder",
+    OsgiKeys.importPackage := Seq("osgitut.movies", "org.osgi.framework.*", "scala.*"),
+    OsgiKeys.privatePackage := Seq("osgitut.movies.impl"),
+    OsgiKeys.bundleActivator := Option("osgitut.movies.impl.BasicMovieFinderActivator")
+  ).dependsOn(movie_bundle)
