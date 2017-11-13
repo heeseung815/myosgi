@@ -55,3 +55,14 @@ lazy val moviefinder_bundle = project.in(file("module/moviefinder_bundle"))
     OsgiKeys.privatePackage := Seq("osgitut.movies.impl"),
     OsgiKeys.bundleActivator := Option("osgitut.movies.impl.BasicMovieFinderActivator")
   ).dependsOn(movie_bundle)
+
+lazy val extender_bundle = project.in(file("module/extender_bundle"))
+  .enablePlugins(SbtOsgi)
+  .settings(
+    name := "Extender Bundle",
+    libraryDependencies ++= Dependencies.osgiAll,
+    osgiSettings,
+    OsgiKeys.bundleSymbolicName := "ExtenderBundle",
+    OsgiKeys.privatePackage := Seq("ddm.extender.activation"),
+    OsgiKeys.bundleActivator := Option("ddm.extender.activation.TestExtender")
+  )
